@@ -213,3 +213,51 @@ footer {
 .btn-github:hover {
     background: #444;
 }
+/* Hamburger */
+.menu-toggle {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+
+    .menu-toggle {
+        display: block;
+        color: white;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background: rgba(0,0,0,0.9);
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        gap: 20px;
+        display: none;
+    }
+
+    .nav-links.show-menu {
+        display: flex;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .hero img {
+        width: 160px;
+    }
+
+    .nav-btn {
+        width: 80%;
+        text-align: center;
+        padding: 10px;
+    }
+}
