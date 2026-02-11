@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shaikh Ashvad | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h2 class="logo">Ashvad Builds</h2>
+        <ul class="nav-links">
+    <li><a href="#home" class="nav-btn active">Home</a></li>
+    <li><a href="#about" class="nav-btn">About</a></li>
+    <li><a href="#projects" class="nav-btn">Projects</a></li>
+    <li><a href="#contact" class="nav-btn">Contact</a></li>
+</ul>
+
+        <button id="darkToggle">🌙</button>
+    </nav>
+</header>
+
+<!-- HOME -->
+<section id="home" class="section">
+    <div class="hero">
+        <div>
+            <h1>Hi, I'm <span class="gradient-text">Shaikh Ashvad</span></h1>
+            <h2>I am a <span id="typing"></span></h2>
+            <p>Passionate MCA student building modern, responsive and interactive web applications.</p>
+        </div>
+        <img src="images/profile.jpg" alt="Profile">
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section hidden">
+    <h2>About Me</h2>
+    <p>I specialize in frontend development using HTML, CSS, and JavaScript. 
+       I enjoy turning ideas into functional, beautiful web experiences.</p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section hidden">
+    <h2>Projects</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Stopwatch Web App</h3>
+            <p>Responsive stopwatch with lap functionality.</p>
+
+            <div class="project-buttons">
+                <a href="https://ashvadshaikh21-cmyk.github.io/CODECRAFT_WD_02/"
+                   target="_blank" class="btn-live">Live Demo</a>
+
+                <a href="https://ashvadshaikh21-cmyk.github.io/CODECRAFT_WD_02/"
+                   target="_blank" class="btn-github">GitHub</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Tic-Tac-Toe Game</h3>
+            <p>Interactive game with AI and score tracking.</p>
+
+            <div class="project-buttons">
+                <a href="https://ashvadshaikh21-cmyk.github.io/CODECRAFT_WD_03/"
+                   target="_blank" class="btn-live">Live Demo</a>
+
+                <a href="https://ashvadshaikh21-cmyk.github.io/CODECRAFT_WD_03/"
+                   target="_blank" class="btn-github">GitHub</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Responsive Landing Page</h3>
+            <p>Modern landing page with navigation and card layout.</p>
+
+            <div class="project-buttons">
+                <a href="https://ashvadshaikh21-cmyk.github.io/CODECRAFT_WD_01/"
+                   target="_blank" class="btn-live">Live Demo</a>
+
+                <a href="https://ashvadshaikh21-cmyk.github.io/CODECRAFT_WD_01/"
+                   target="_blank" class="btn-github">GitHub</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="section hidden">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name">
+        <small class="error"></small>
+
+        <input type="email" id="email" placeholder="Your Email">
+        <small class="error"></small>
+
+        <textarea id="message" placeholder="Your Message"></textarea>
+        <small class="error"></small>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Shaikh Ashvad</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
